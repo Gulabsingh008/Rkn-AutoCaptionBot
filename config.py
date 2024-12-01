@@ -10,19 +10,19 @@ id_pattern = re.compile(r'^.\d+$')
 class Rkn_Bots(object):
     
     # Rkn client config  ( required.. 😥)
-    API_ID = os.environ.get("API_ID", "26494161")
-    API_HASH = os.environ.get("API_HASH", "55da841f877d16a3a806169f3c5153d3")
+    API_ID = os.environ.get("API_ID", "22384370")
+    API_HASH = os.environ.get("API_HASH", "05e2be75292ecbec3f7a29bf13b1e29e")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     # start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/Ygt.jpg")
 
     # wes response configuration
     BOT_UPTIME = time.time()
     PORT = int(os.environ.get("PORT", "8080"))
 
     # force subs channel ( required.. 😥)
-    FORCE_SUB = os.environ.get("FORCE_SUB", "af_cinemas") 
+    FORCE_SUB = os.environ.get("FORCE_SUB", "Techshyam007") 
     
     # database config ( required.. 😥)
     DB_NAME = os.environ.get("DB_NAME", "AutoCaption_V05_Bot")     
